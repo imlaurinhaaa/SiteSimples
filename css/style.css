@@ -45,7 +45,7 @@ form input [type="number"],
 form input [type="date"],
 form input [type="url"],
 form select,
-form textarea{
+form textarea {
     width: calc(100% - 20px);
     padding: 10px;
     margin-bottom: 20px;
