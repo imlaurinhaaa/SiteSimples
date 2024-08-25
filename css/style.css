@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 141, 206, 0.601);
     color: black;
     padding: 20px;
     margin: 0;
@@ -8,20 +8,20 @@ body{
 
 h1{
     text-align: center;
-    color: rgb(255, 0, 149);
+    color: rgb(255, 72, 185);
 }
 
 form{
     max-width: 600px;
     margin: 0 auto;
-    background-color:aliceblue;
+    background-color:rgb(255, 255, 255);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0. 0.1);
 }
 
 form fieldset{
-    border: 1px solid rgb(255, 0, 157);
+    border: 1px solid rgb(255, 72, 185);
     padding: 10px;
     margin-bottom: 10px;
 }
@@ -38,12 +38,12 @@ form legend{
     color: rgb(0, 0, 0);
 }
 
-form input [type="text"],
-form input [type="email"],
-form input [type="password"],
-form input [type="number"],
-form input [type="date"],
-form input [type="url"],
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="number"],
+form input[type="date"],
+form input[type="url"],
 form select,
 form textarea {
     width: calc(100% - 20px);
